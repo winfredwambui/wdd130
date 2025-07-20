@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #eee;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+main img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+main, aside {
+  padding: 1rem;
+}
+
+aside {
+  width: 90%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+p {
+  padding: 0;
+}
+
+footer {
+  margin-top: 2rem;
+  border-top: 2px solid #333;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: #111;
+  color: #eee;
+}
+
+body.dark header,
+body.dark footer,
+body.dark aside {
+  background-color: #222;
+  color: #eee;
+}
+
+body.dark nav a {
+  color: #ccc;
+}
