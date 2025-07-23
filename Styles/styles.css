@@ -11,25 +11,39 @@ header, footer {
   text-align: center;
 }
 
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #333;
+  color: #fff;
+  display: inline-block;
+  padding: 0.5rem;
 }
 
-main img {
-  width: 200px;
+h1 {
+  color: darkblue;
+}
+
+img {
+  width: 100%;
   height: auto;
-  display: block;
-  margin: 1rem auto;
+  border: 2px solid #ccc;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 }
 
-main, aside {
+main {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 1rem;
 }
 
 aside {
-  width: 90%;
+  width: 250px;
   margin: 20px auto;
   border: 1px solid #ccc;
   padding: 1rem;
