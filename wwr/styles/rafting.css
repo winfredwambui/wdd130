@@ -80,3 +80,21 @@ nav, p, section, article {
   width: 125px;
   margin-left: 12px;
 }
+
+/* Image Grid for "Adventure Awaits You!" */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
