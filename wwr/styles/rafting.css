@@ -1,50 +1,44 @@
-/* Root variables */
+/* styles/rafting.css */
+
+
 :root {
-  --primary-color: #BEB8EB;
-  --secondary-color: #5299D3;
-  --accent1-color: #0B5563;
-  --accent2-color: #FEFFFF;
-  --heading-font: 'Bebas Neue', sans-serif;
-  --body-font: 'Open Sans', sans-serif;
+  --primary-color: #0d3b66;
+  --accent1-color: #f4d35e;
+  --accent2-color: #ee964b;
+  --heading-font: 'Oswald', sans-serif;
+  --body-font: 'Roboto', sans-serif;
 }
 
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body */
 body {
   font-family: var(--body-font);
   color: var(--accent1-color);
 }
 
-/* Layout */
 header, main, footer {
   width: 840px;
   margin: 0 auto;
 }
 
-/* Headings */
 h1, h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
 
-/* Nav & Text Layout */
 nav, p, section, article {
   margin: 16px;
   padding: 8px;
 }
 
-/* Social Media */
 .socialmedia a {
   text-decoration: none;
 }
 
-/* Hero Styles */
 .hero {
   position: relative;
 }
@@ -69,10 +63,11 @@ nav, p, section, article {
 .hero article {
   position: absolute;
   bottom: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 16px;
-  width: 70%;
-  left: 15%;
+  left: 20px;
+  background-color: rgba(13, 59, 102, 0.8);
+  color: #fff;
+  padding: 12px;
+  max-width: 300px;
 }
 
 .hero article img {
@@ -81,20 +76,19 @@ nav, p, section, article {
   margin-left: 12px;
 }
 
-/* Image Grid for "Adventure Awaits You!" */
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  padding: 1rem;
+footer p {
+  text-align: center;
+  padding: 12px 0;
 }
 
-.image-grid img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+footer .socialmedia {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding-bottom: 16px;
 }
 
-
+footer .socialmedia img {
+  width: 32px;
+  height: 32px;
+}
